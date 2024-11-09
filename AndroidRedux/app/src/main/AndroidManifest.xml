@@ -13,7 +13,7 @@
         android:theme="@style/Theme.KotlinToyRedux"
         tools:targetApi="31">
         <activity
-            android:name="com.example.kotlin_redux.MainActivity"
+            android:name="com.learning.standards.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.KotlinToyRedux">
