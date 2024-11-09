@@ -1,4 +1,4 @@
-package com.example.kotlin_toy_redux.ui.theme
+package com.example.kotlin_redux.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

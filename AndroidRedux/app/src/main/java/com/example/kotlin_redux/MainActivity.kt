@@ -1,4 +1,4 @@
-package com.example.kotlin_toy_redux
+package com.example.kotlin_redux
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -27,8 +27,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.kotlin_toy_redux.ui.theme.KotlinToyReduxTheme
-import com.example.kotlin_toy_redux.ui.theme.DkGreen
+import com.example.kotlin_redux.ui.theme.KotlinToyReduxTheme
+import com.example.kotlin_redux.ui.theme.Green
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -104,7 +104,7 @@ fun TextBoxView(text: String) {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Box(
             contentAlignment = Alignment.Center,
-            modifier = Modifier.border(width = 2.dp, color = DkGreen, shape = RoundedCornerShape(10.dp))
+            modifier = Modifier.border(width = 2.dp, color = Green, shape = RoundedCornerShape(10.dp))
         ) {
             Text(
                 text = text,

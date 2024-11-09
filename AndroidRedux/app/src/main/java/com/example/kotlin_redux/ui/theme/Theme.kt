@@ -1,4 +1,4 @@
-package com.example.kotlin_toy_redux.ui.theme
+package com.example.kotlin_redux.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -7,13 +7,13 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-    primary = DkGreen,
+    primary = Green,
     primaryVariant = Purple700,
     secondary = Teal200
 )
 
 private val LightColorPalette = lightColors(
-    primary = DkGreen,
+    primary = Green,
     primaryVariant = Purple700,
     secondary = Teal200
 

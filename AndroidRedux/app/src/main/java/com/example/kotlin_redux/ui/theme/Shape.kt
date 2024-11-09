@@ -1,4 +1,4 @@
-package com.example.kotlin_toy_redux.ui.theme
+package com.example.kotlin_redux.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

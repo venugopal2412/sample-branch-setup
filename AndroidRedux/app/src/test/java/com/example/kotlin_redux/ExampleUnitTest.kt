@@ -1,4 +1,4 @@
-package com.example.kotlin_toy_redux
+package com.example.kotlin_redux
 
 import org.junit.Test
 
