@@ -27,14 +27,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.learning.standards.ui.theme.KotlinToyReduxTheme
+import com.learning.standards.ui.theme.AppTheme
 import com.learning.standards.ui.theme.Green
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            KotlinToyReduxTheme {
+            AppTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -120,7 +120,7 @@ fun TextBoxView(text: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    KotlinToyReduxTheme {
+    AppTheme {
         MainAppView()
     }
 }
